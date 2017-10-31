@@ -1,0 +1,31 @@
+
+Right click on package.json and Run As « npm install.
+
+https://github.com/rahil471/file-upload-with-angularjs-and-nodejs
+
+
+{
+  "name": "MongoFileStream",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+	//"start": "node app.js"
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	"express":"4.12.3",
+	"busboy":"*"//"0.2.9",
+	"gridfs-stream":"1.1.1",
+	"mongoose":"*",
+	
+	"mongodb":"2.0.31",
+	
+	"body-parser":"*",
+	"fs":"*",
+	"connect-multiparty":"*",
+	
+	"mkdirp":"*"
+  },
+  "author": "Yashwanth M",
+  "license": "ISC"
+}

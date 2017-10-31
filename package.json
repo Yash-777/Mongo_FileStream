@@ -1,0 +1,24 @@
+{
+  "name": "MongoFileStream",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	"express":"4.12.3",
+	"busboy":"*",
+	"gridfs-stream":"1.1.1",
+	"mongoose":"*",
+	
+	"mongodb":"2.0.31",
+	
+	"body-parser":"*",
+	"fs":"*",
+	"connect-multiparty":"*",
+	
+	"mkdirp":"*"
+  },
+  "author": "Yashwanth M",
+  "license": "ISC"
+}
